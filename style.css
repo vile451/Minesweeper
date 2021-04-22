@@ -1,0 +1,31 @@
+h3{
+    font-family: 'Antonio';
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-box{
+    background-color: #adafb3;
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-box{
+    size: 100px 500px;
+    background-color: #7c7d80;
+    border: 3px solid black;
+}
+
+.gameboard{
+    size: auto;
+    display: grid;
+    background-color: black;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-template-rows: 20px 20px 20px 20px 20px 20px 20px 20px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
